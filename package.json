@@ -1,0 +1,23 @@
+{
+  "name": "webHooks-nodeJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RhuanPrado/webHooks-nodeJS.git",
+  "author": "RhuanPrado <odarp123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon src/server.js",
+    "dev2": "nodemon src/client-notification/clientAPI.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "node-webhooks": "^1.4.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
