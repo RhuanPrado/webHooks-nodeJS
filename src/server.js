@@ -5,7 +5,7 @@ const routes = require('./routes');
 
 const server = express();
 
-mongoose.connect('mongodb+srv://cotacao:cotacao@cluster0.ycbog.mongodb.net/webhooks?retryWrites=true&w=majority',{
+mongoose.connect('database MONGODB',{
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 });
